@@ -25,7 +25,7 @@ CHUNKS_PATH = PROCESSED_DIR / "chunks.parquet"
 WINDOW = 510
 STRIDE = 510
 MIN_TOKENS = 20
-MODEL_NAME = "ProsusAI/finbert"
+MODEL_NAME = "yiyanghkust/finbert-pretrain"
 
 # (speaker label, source column) pairs, in output order.
 _SPEAKERS = (
